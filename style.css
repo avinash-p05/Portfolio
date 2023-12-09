@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 :root{
-    --bg-color:#000000;
+    --bg-color:#0f0b0b;
     --text-color: #ffffff;
     --secound-color:#ffffff;
     --main-color:#f9004d;
@@ -473,149 +473,140 @@ header.sticky{
         top: 100%
     }
 }
-@media (max-width: 800px){
-    .home{
+@media (max-width: 800px) {
+    .home {
         grid-template-columns: 1fr;
         min-height: 130vh;
         grid-gap: 1rem;
     }
-    .home-text{
-        padding-top: 50px ;
+    .home-text {
+        padding-top: 50px;
     }
-    .home-img{
+    .home-img {
         text-align: center;
     }
-    .home-img img{
+    .home-img img {
         width: 440px;
         height: auto;
     }
-    .about{
+    .about {
         grid-template-columns: 1fr;
     }
-    about-img{
+    .about-img {
         text-align: center;
         margin-bottom: 30px;
     }
-    :root{
+    :root {
         --big-font: 3.4rem;
         --h2-font: 2rem;
-
     }
-    section{
+    section {
         padding: 65% 3%;
         transition: .3s;
     }
 }
 
-
-@media (max-width: 600px){
-    .home{
+@media (max-width: 600px) {
+    .home {
         grid-template-columns: 1fr;
         width: 599px;
         min-height: 130vh;
         grid-gap: 1rem;
         align-items: center;
     }
-    .home-text{
-        padding-top: 30px ;
+    .home-text {
+        padding-top: 30px;
         padding-left: 10%;
         padding-right: 8%;
     }
-    .home-img{
+    .home-img {
         text-align: center;
     }
-    .home-img img{
-        
+    .home-img img {
         width: 580px;
         height: auto;
     }
-    .about{
+    .about {
         width: 599px;
         height: auto;
         padding-top: 5%;
         grid-template-columns: 1fr;
     }
-    .about-img{
+    .about-img {
         width: 580px;
         height: auto;
         padding-left: 10%;
         text-align: center;
         margin-bottom: 30px;
     }
-    .about-text{
+    .about-text {
         padding-left: 10%;
     }
-    .about-text p{
+    .about-text p {
         font-size: 20px;
     }
-    .about-text h3{
+    .about-text h3 {
         font-size: 40px;
     }
-    :root{
+    :root {
         --big-font: 3.4rem;
         --h2-font: 2rem;
-
     }
-    .sub-service{
+    .sub-service {
         width: 599px;
         height: auto;
         align-items: center;
         padding-left: 10%;
-        
     }
-    .items{
+    .items {
         grid-template-columns: 1fr;
     }
-    .sub-service h1{
+    .sub-service h1 {
         font-size: 40px;
     }
-    .sub-box{
+    .sub-box {
         font-size: 20px;
-        padding:0%;
+        padding: 0%;
     }
-    .sub-box p{
+    .sub-box p {
         font-size: 20px;
     }
-    .sub-box img{
+    .sub-box img {
         width: 70px;
         height: 70px;
     }
-    .portfolio{
+    .portfolio {
         width: 599px;
         height: auto;
         padding-top: 10%;
-        
     }
-    .portfolio p{
+    .portfolio p {
         letter-spacing: normal;
         font-size: 20px;
     }
-    .portfolio h3{
+    .portfolio h3 {
         font-size: 45px;
     }
-    
-    .contact{
+    .contact {
         text-align: center;
         padding: 0%;
         margin-left: 10%;
         width: 599px;
         transition: .3s;
     }
-    .contact .container{
+    .contact .container {
         width: 500px;
         height: auto;
     }
-    .contact .action form input[type="email"]{
-        
+    .contact .action form input[type="email"] {
         width: 350px;
     }
-    .ends{
+    .ends {
         height: 200px;
         width: 599px;
-        
         text-align: center;
     }
-    .ends p{
+    .ends p {
         text-align: center;
     }
 }
